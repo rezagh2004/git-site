@@ -9,4 +9,5 @@ body{
 h1{
     font-size: 3.5rem;
     color: brown;
+    font-weight: bold;
 }
