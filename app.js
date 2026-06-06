@@ -14,4 +14,6 @@ const getme=(token)=>{
     return user
 }
 
+const test=()=> false
+
 //Auth
