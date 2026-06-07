@@ -16,4 +16,10 @@ const getme=(token)=>{
 
 const test=()=> false
 
+const addCourse=(course)=>{
+    return {
+        message:"new course added successfully :))"
+    }
+}
+
 //Auth
