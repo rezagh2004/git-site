@@ -1,5 +1,5 @@
 const login=(user)=>{
-    if(user.name==="reza"){
+    if(user.name==="reza" && user.family==="gheybi"){
         return true
     }else{
         return false
