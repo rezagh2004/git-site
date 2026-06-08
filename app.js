@@ -22,4 +22,26 @@ const addCourse=(course)=>{
     }
 }
 
+const removeCourse=(courseID)=>{
+    return {
+        message:"course Removed successfully :))"
+    }
+}
+
+const updateCourse=(course , courseID)=>{
+    const isUpdated = true
+    if (isUpdated) {
+        return {
+            success: true,
+            data: { courseID, course },
+            message: "Course updated successfully :))"
+        };
+    } else {
+        return {
+            success: false,
+            message: "Failed to update course"
+        }
+    }
+}
+
 //Auth
