@@ -1,5 +1,5 @@
 const login=(user)=>{
-    if(user.name==="reza"){
+    if(user.name==="reza" && user.family==="gheybi"){
         return true
     }else{
         return false
@@ -19,6 +19,28 @@ const test=()=> false
 const addCourse=(course)=>{
     return {
         message:"new course added successfully :))"
+    }
+}
+
+const removeCourse=(courseID)=>{
+    return {
+        message:"course Removed successfully :))"
+    }
+}
+
+const updateCourse=(course , courseID)=>{
+    const isUpdated = true
+    if (isUpdated) {
+        return {
+            success: true,
+            data: { courseID, course },
+            message: "Course updated successfully :))"
+        };
+    } else {
+        return {
+            success: false,
+            message: "Failed to update course"
+        }
     }
 }
 
